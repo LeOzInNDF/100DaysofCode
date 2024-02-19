@@ -1,8 +1,11 @@
 body{
 background: #e5e5e5;
-color: #252828;
-font-family: 'Montserrat', sans-serif;
+color: #25282b;
+font-family: "Montserrat", sans-serif;
 margin: 0;
+
+
+
 }
 
   a {
@@ -13,6 +16,12 @@ margin: 0;
 
   a:hover {
     text-decoration: underline;
+  }
+
+  p, .description {
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: 0.1px;
   }
 
 #container {
@@ -41,7 +50,10 @@ button {
 background: none;
 border: none;
 color: #ff5E84;
+font-size: 14px;
 font-weight: bold;
+line-height: 18px;
+letter-spacing: 0.2px;
 cursor: pointer;
 outline: none;
 }
