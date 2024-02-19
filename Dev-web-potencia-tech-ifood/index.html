@@ -20,7 +20,7 @@
         <p>Comece clicando em ver ideias para ver as ideias cadastradas e contribua adicionando a sua ideia.</p>
       </main>
       <section id="buttons">
-        <button>+Adicionar ideia</button>
+        <button onclick="onOff()">+ Adicionar ideia</button>
         <button class="fat">Ver ideias</button>
       </section>
       <footer>Com ❤️ por <a href="https://github.com/LeOzInNDF">LeOzInNDF</a></footer>
@@ -69,7 +69,7 @@
   </div>
 
          <!-- Modal -->
-         <div id="modal">
+         <div id="modal" class="hide">
             <div class="content">
                 <h1>Nova Ideia</h1>
 
@@ -97,9 +97,10 @@
                     
                     <div class="input-wrapper">
                         <label for="link">Link da ideia</label>
-                        <input type="url" name="image">
+                        <input type="url" name="link">
                     </div>
-                
+                    
+                    <a href="#" onclick="onOff()">Voltar</a>
                     <button>Salvar</button>
                 
                 </form>
