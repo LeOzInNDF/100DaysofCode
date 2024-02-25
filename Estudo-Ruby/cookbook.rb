@@ -15,10 +15,11 @@ end
       nome = gets.chomp()
       puts "Digite o tipo da receita: "
       tipo = gets.chomp()
-      receitas << { nome: nome, tipo: tipo }
+
       puts
       puts "Receita #{nome} cadastrada com sucesso!"
       puts
+      return { nome: nome, tipo: tipo }
   end
 
   bem_vindo()
@@ -31,7 +32,7 @@ end
  
   while(opcao != 3) do
   if(opcao == 1)
-      
+  inserir_receita()
   elsif(opcao == 2)
       puts "======== Receitas cadastradas ========"
       receitas.each do |receita|
