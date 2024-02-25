@@ -22,6 +22,14 @@ end
       return { nome: nome, tipo: tipo }
   end
 
+  def imprimir_receitas(receitas)
+      puts "======== Receitas cadastradas ========"
+      receitas.each do |receita|
+      puts "#{receita[:nome]} - #{receita[:tipo]}"
+      end
+      puts
+  end
+
   bem_vindo()
   
 
@@ -32,13 +40,9 @@ end
  
   while(opcao != 3) do
   if(opcao == 1)
-  inserir_receita()
+  receitas << inserir_receita()
   elsif(opcao == 2)
-      puts "======== Receitas cadastradas ========"
-      receitas.each do |receita|
-      puts "#{receita[:nome]} - #{receita[:tipo]}"
-      end
-      puts
+     imprimir_receitas(receitas)
 else
   puts "Opção inválida"
   end
