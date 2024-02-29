@@ -1,5 +1,3 @@
-
-
 def bem_vindo()
   puts "Bem-vindo [#{USUARIO}] ao sistema escolar"
 end
