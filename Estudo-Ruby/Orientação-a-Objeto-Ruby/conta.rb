@@ -17,11 +17,12 @@ class Conta
   end
 
   def depositar(valor)
+    if sacar 
     self.saldo += valor
 end
 
   def tranferir(conta_destino, valor)
     sacar(valor)
-
+    conta_destino.depositar(valor)
   end
 end
