@@ -1,6 +1,4 @@
 
-
-
 class Conta 
   attr_reader :numero, :titular
   attr_accessor :saldo
