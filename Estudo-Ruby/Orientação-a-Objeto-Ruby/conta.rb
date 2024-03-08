@@ -1,3 +1,5 @@
+require_relative 'cliente'
+
 class Conta 
   attr_reader :numero, :titular
   attr_accessor :saldo
@@ -17,7 +19,6 @@ class Conta
   end
 
   def depositar(valor)
-    if sacar 
     self.saldo += valor
 end
 
