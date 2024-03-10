@@ -50,7 +50,7 @@ end
   receitas = []
   
   opcao = menu()
-  
+
  
   loop do
   if(opcao == INSERIR_RECEITA)
