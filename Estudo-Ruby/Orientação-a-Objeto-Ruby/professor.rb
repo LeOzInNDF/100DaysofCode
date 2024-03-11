@@ -29,6 +29,4 @@ class Turma
   def initialize
     @alunos = []
 end
-
-
 end
