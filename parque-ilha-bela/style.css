@@ -8,6 +8,29 @@ body {
   
 }
 
+.menu {
+  width: auto;
+  height: 100px;
+  text-align: center;
+  background-color: white;
+  font-size: 40px;
+  color: blue;
+}
+
+div {
+  margin: 0px auto;
+  text-align: center;
+}
+
+.content {
+  
+  width: 100%;
+  font-size: large;
+  
+  
+
+}
+
 a {
   color: #ff5E84;
   font-weight: bold;
@@ -20,12 +43,12 @@ a:hover {
 
 p,
 .description {
-  font-size: 16px;
+  font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.1px;
 }
 
 h1 {
-  color: coral;
+  font-size: 50px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
